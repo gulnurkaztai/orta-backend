@@ -1,0 +1,42 @@
+{
+  "name": "orta-app",
+  "version": "1.0.0",
+  "description": "Orta Community App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/index.js",
+    "server": "nodemon backend/index.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gulnurkaztai/orta-app.git"
+  },
+  "author": "Gulnur Kaztai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gulnurkaztai/orta-app/issues"
+  },
+  "homepage": "https://github.com/gulnurkaztai/orta-app#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "concurrently": "^7.6.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "fs": "^0.0.1-security",
+    "google-auth-library": "^8.7.0",
+    "handlebars": "^4.7.7",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.4",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
