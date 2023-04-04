@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken')
 const User = require('../models/userModel')
 const Token = require("../models/token");
 const sendEmail = require("../utils/sendEmail");
-const crypto = require("crypto");
+const crypto = require("crypto"); 
 
 
 // Register a new user

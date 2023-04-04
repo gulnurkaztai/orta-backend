@@ -13,4 +13,4 @@ router.get('/', getUsers)
 router.patch('/update/:id', protect, updateProfile)
 
 
-module.exports = router
+module.exports = router;
